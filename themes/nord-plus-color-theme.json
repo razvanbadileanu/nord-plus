@@ -6,7 +6,6 @@
     "focusBorder": "#3b4252",
     "foreground": "#d8dee9",
     "activityBar.background": "#2e3440",
-    "activityBar.dropBackground": "#3b4252",
     "activityBar.foreground": "#d8dee9",
     "activityBar.activeBorder": "#88c0d0",
     "activityBar.activeBackground": "#3b4252",
@@ -42,7 +41,6 @@
     "dropdown.background": "#3b4252",
     "dropdown.border": "#3b4252",
     "dropdown.foreground": "#d8dee9",
-    "editorActiveLineNumber.foreground": "#d8dee9cc",
     "editorCursor.foreground": "#d8dee9",
     "editorHint.border": "#ebcb8b00",
     "editorHint.foreground": "#ebcb8b",
@@ -87,7 +85,6 @@
     "editorBracketHighlight.foreground6": "#88c0d0",
     "editorBracketHighlight.unexpectedBracket.foreground": "#bf616a",
     "editorCodeLens.foreground": "#4c566a",
-    "editorGroup.background": "#2e3440",
     "editorGroup.border": "#3b425201",
     "editorGroup.dropBackground": "#3b425299",
     "editorGroupHeader.border": "#3b425200",
@@ -185,19 +182,6 @@
     "minimapSlider.activeBackground": "#434c5eaa",
     "minimapSlider.background": "#434c5e99",
     "minimapSlider.hoverBackground": "#434c5eaa",
-
-    /* `notification.*` keys are legacy support for VS Code versions >1.21.0 */
-    "notification.background": "#3b4252",
-    "notification.buttonBackground": "#434c5e",
-    "notification.buttonForeground": "#d8dee9",
-    "notification.buttonHoverBackground": "#4c566a",
-    "notification.errorBackground": "#bf616a",
-    "notification.errorForeground": "#2e3440",
-    "notification.foreground": "#d8dee9",
-    "notification.infoBackground": "#88c0d0",
-    "notification.infoForeground": "#2e3440",
-    "notification.warningBackground": "#ebcb8b",
-    "notification.warningForeground": "#2e3440",
 
     "notificationCenter.border": "#3b425200",
     "notificationCenterHeader.background": "#2e3440",
@@ -307,15 +291,12 @@
     "titleBar.inactiveForeground": "#d8dee966",
     "tree.indentGuidesStroke": "#616e88",
     "walkThrough.embeddedEditorBackground": "#2e3440",
-    "welcomePage.buttonBackground": "#434c5e",
-    "welcomePage.buttonHoverBackground": "#4c566a",
     "widget.shadow": "#00000066"
   },
   "tokenColors": [
     {
       "settings": {
-        "foreground": "#d8dee9ff",
-        "background": "#2e3440ff"
+        "foreground": "#d8dee9ff"
       }
     },
     {
@@ -412,16 +393,14 @@
       "name": "Invalid Deprecated",
       "scope": "invalid.deprecated",
       "settings": {
-        "foreground": "#D8DEE9",
-        "background": "#EBCB8B"
+        "foreground": "#D8DEE9"
       }
     },
     {
       "name": "Invalid Illegal",
       "scope": "invalid.illegal",
       "settings": {
-        "foreground": "#D8DEE9",
-        "background": "#BF616A"
+        "foreground": "#D8DEE9"
       }
     },
     {
@@ -507,11 +486,7 @@
     },
     {
       "name": "Punctuation Definition Comment",
-      "scope": [
-        "punctuation.definition.comment",
-        "punctuation.end.definition.comment",
-        "punctuation.start.definition.comment"
-      ],
+      "scope": ["punctuation.definition.comment", "punctuation.end.definition.comment", "punctuation.start.definition.comment"],
       "settings": {
         "foreground": "#616E88"
       }
@@ -699,10 +674,7 @@
     },
     {
       "name": "[CSS] Media Queries",
-      "scope": [
-        "source.css keyword.control.at-rule.media",
-        "source.css keyword.control.at-rule.media punctuation.definition.keyword"
-      ],
+      "scope": ["source.css keyword.control.at-rule.media", "source.css keyword.control.at-rule.media punctuation.definition.keyword"],
       "settings": {
         "foreground": "#D08770"
       }
@@ -865,10 +837,7 @@
     },
     {
       "name": "[Java](JavaDoc) Punctuation Definition Tag",
-      "scope": [
-        "source.java punctuation.definition.tag.begin.javadoc",
-        "source.java punctuation.definition.tag.end.javadoc"
-      ],
+      "scope": ["source.java punctuation.definition.tag.begin.javadoc", "source.java punctuation.definition.tag.end.javadoc"],
       "settings": {
         "foreground": "#616E88"
       }
@@ -1047,10 +1016,7 @@
     },
     {
       "name": "[Markdown] Markup Fenced Code Block",
-      "scope": [
-        "text.html.markdown markup.fenced_code.block",
-        "text.html.markdown markup.fenced_code.block punctuation.definition"
-      ],
+      "scope": ["text.html.markdown markup.fenced_code.block", "text.html.markdown markup.fenced_code.block punctuation.definition"],
       "settings": {
         "foreground": "#8FBCBB"
       }
@@ -1064,10 +1030,7 @@
     },
     {
       "name": "[Markdown] Markup Inline",
-      "scope": [
-        "text.html.markdown markup.inline.raw",
-        "text.html.markdown markup.inline.raw punctuation.definition.raw"
-      ],
+      "scope": ["text.html.markdown markup.inline.raw", "text.html.markdown markup.inline.raw punctuation.definition.raw"],
       "settings": {
         "foreground": "#8FBCBB"
       }
@@ -1116,10 +1079,7 @@
     },
     {
       "name": "[Markdown] Markup Math Definition Marker",
-      "scope": [
-        "text.html.markdown punctuation.definition.math.begin",
-        "text.html.markdown punctuation.definition.math.end"
-      ],
+      "scope": ["text.html.markdown punctuation.definition.math.begin", "text.html.markdown punctuation.definition.math.end"],
       "settings": {
         "foreground": "#5E81AC"
       }
@@ -1147,10 +1107,7 @@
     },
     {
       "name": "[Markdown] Punctuation Definition Constant/String",
-      "scope": [
-        "text.html.markdown punctuation.definition.constant",
-        "text.html.markdown punctuation.definition.string"
-      ],
+      "scope": ["text.html.markdown punctuation.definition.constant", "text.html.markdown punctuation.definition.string"],
       "settings": {
         "foreground": "#81A1C1"
       }
@@ -1232,13 +1189,9 @@
     },
     {
       "name": "[Rust] Attributes",
-      "scope": [
-        "source.rust meta.attribute",
-        "source.rust meta.attribute punctuation",
-        "source.rust meta.attribute keyword.operator"
-      ],
+      "scope": ["source.rust meta.attribute", "source.rust meta.attribute punctuation", "source.rust meta.attribute keyword.operator"],
       "settings": {
-        "foreground": "#5E81AC",
+        "foreground": "#5E81AC"
       }
     },
     {
@@ -1252,7 +1205,7 @@
       "name": "[Rust] Interpolation Bracket Curly",
       "scope": "source.rust punctuation.definition.interpolation",
       "settings": {
-        "foreground": "#EBCB8B",
+        "foreground": "#EBCB8B"
       }
     },
     {
@@ -1296,22 +1249,20 @@
     },
     {
       "name": "[TypeScript] Object-literal functions",
-      "scope": [
-        "source.ts meta.object-literal.key entity.name.function",
-        "source.tsx meta.object-literal.key entity.name.function"
-      ],
+      "scope": ["source.ts meta.object-literal.key entity.name.function", "source.tsx meta.object-literal.key entity.name.function"],
       "settings": {
         "foreground": "#88C0D0"
       }
     },
     {
-      "name": "[TypeScript] Object-literal $ sign",
+      "name": "[TypeScript] Object-literal expression",
       "scope": [
         "punctuation.definition.template-expression.begin.ts",
+        "punctuation.definition.template-expression.end.ts",
         "meta.template.expression.ts"
       ],
       "settings": {
-        "foreground": "#8fbcbb"
+        "foreground": "#81A1C1"
       }
     },
     {

@@ -1305,6 +1305,16 @@
       }
     },
     {
+      "name": "[TypeScript] Object-literal $ sign",
+      "scope": [
+        "punctuation.definition.template-expression.begin.ts",
+        "meta.template.expression.ts"
+      ],
+      "settings": {
+        "foreground": "#8fbcbb"
+      }
+    },
+    {
       "name": "[TypeScript] Type/Class",
       "scope": [
         "source.ts support.class",

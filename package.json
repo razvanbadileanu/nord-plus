@@ -2,7 +2,7 @@
   "name": "nord-plus-visual-studio-code",
   "displayName": "Nord+",
   "description": "Nord based theme for Visual Studio Code with some adjustments for better readability.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "developerbadileanuro",
   "repository": {
     "type": "git",
@@ -33,12 +33,13 @@
     "theme": "dark"
   },
   "engines": {
-    "vscode": "^1.72.0"
+    "vscode": "^1.60.0"
   },
   "keywords": [
     "theme",
     "north",
     "plus",
+    "+",
     "bluish",
     "dark",
     "clean",

@@ -2,10 +2,12 @@
   "name": "nord-plus-visual-studio-code",
   "displayName": "Nord+",
   "description": "Nord based theme for Visual Studio Code with some adjustments for better readability.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.72.0"
   },
+  "icon": "https://github.com/razvanbadileanu/nord-plus/blob/main/assets/extension-marketplace-icon.png",
+  "markdown": "github",
   "categories": [
     "Themes"
   ],
@@ -28,6 +30,19 @@
     "url": "https://developer.badileanu.ro"
   },
   "license": "MIT",
+  "galleryBanner": {
+    "color": "#2E3440",
+    "theme": "dark"
+  },
+  "keywords": [
+    "theme",
+    "badileanu",
+    "north",
+    "plus",
+    "bluish",
+    "clean",
+    "elegant"
+  ],
   "bugs": {
     "url": "https://github.com/razvanbadileanu/nord-plus/issues"
   },

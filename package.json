@@ -13,7 +13,7 @@
     "email": "razvan@badileanu.ro",
     "url": "https://developer.badileanu.ro"
   },
-  "icon": "https://github.com/razvanbadileanu/nord-plus/blob/main/assets/extension-marketplace-icon.png",
+  "icon": "https://github.com/razvanbadileanu/nord-plus/tree/main/assets/extension-marketplace-icon.png",
   "markdown": "github",
   "categories": [
     "Themes"

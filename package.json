@@ -3,8 +3,15 @@
   "displayName": "Nord+",
   "description": "Nord based theme for Visual Studio Code with some adjustments for better readability.",
   "version": "1.0.0",
-  "engines": {
-    "vscode": "^1.72.0"
+  "publisher": "developerbadileanuro",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/razvanbadileanu/nord-plus.git"
+  },
+  "author": {
+    "name": "Razvan Badileanu",
+    "email": "razvan@badileanu.ro",
+    "url": "https://developer.badileanu.ro"
   },
   "icon": "https://github.com/razvanbadileanu/nord-plus/blob/main/assets/extension-marketplace-icon.png",
   "markdown": "github",
@@ -20,29 +27,23 @@
       }
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/razvanbadileanu/nord-plus.git"
-  },
-  "author": {
-    "name": "Razvan Badileanu",
-    "email": "razvan@badileanu.ro",
-    "url": "https://developer.badileanu.ro"
-  },
   "license": "MIT",
   "galleryBanner": {
     "color": "#2E3440",
     "theme": "dark"
   },
+  "engines": {
+    "vscode": "^1.72.0"
+  },
   "keywords": [
     "theme",
-    "badileanu",
     "north",
     "plus",
     "bluish",
     "dark",
     "clean",
-    "elegant"
+    "elegant",
+    "badileanu"
   ],
   "bugs": {
     "url": "https://github.com/razvanbadileanu/nord-plus/issues"

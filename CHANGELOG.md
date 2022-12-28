@@ -25,7 +25,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Update less/sass variable color
 - Update color brackets
 
-## 2.3.2 20221228
+## 2.3.3 20221228
 
 - Exclude node_modules from extension package
-
+- Update this keyword color
+- Update html id attribute color

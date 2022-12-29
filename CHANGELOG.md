@@ -30,3 +30,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Exclude node_modules from extension package
 - Update this keyword color
 - Update html id attribute color
+
+## 2.3.4 20221229
+
+- Update class, entity, punctuation and variable color

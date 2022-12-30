@@ -34,3 +34,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## 2.3.4 20221229
 
 - Update class, entity, punctuation and variable color
+
+## 2.3.5 20221230
+
+- Update variable.other.object color to be more readable
+- Update keyword.operator.logical color

@@ -35,8 +35,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Update class, entity, punctuation and variable color
 
-## 2.3.6 20221230
+## 2.3.7 20221230
 
 - Update variable.other.object color to be more readable
 - Update keyword.operator.logical color
 - Update punctuation
+- Update json punctuation

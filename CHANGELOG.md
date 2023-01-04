@@ -41,3 +41,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Update keyword.operator.logical color
 - Update punctuation
 - Update json punctuation
+
+## 2.3.8 20230104
+
+- Update class, primitive, variable, attribute-name.html and punctuation color

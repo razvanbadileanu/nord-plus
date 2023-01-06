@@ -45,3 +45,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## 2.3.8 20230104
 
 - Update class, primitive, variable, attribute-name.html and punctuation color
+
+## 2.3.9 20230106
+
+- Update markdown

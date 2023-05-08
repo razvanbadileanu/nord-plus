@@ -49,3 +49,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## 2.3.9 20230106
 
 - Update markdown
+
+## 2.3.10 20230508
+
+- Update editor indent guide color

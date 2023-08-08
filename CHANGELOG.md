@@ -53,3 +53,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## 2.3.10 20230508
 
 - Update editor indent guide color
+
+## 2.4.0 20230808
+
+- Update side bar foreground and indent guides stroke

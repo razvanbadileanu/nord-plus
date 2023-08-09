@@ -58,6 +58,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Update side bar foreground and indent guides stroke
 
-## 2.4.1 20230809
+## 2.4.2 20230809
 
 - Remove sideBar and panel border
+- Update sideBar header section and title
